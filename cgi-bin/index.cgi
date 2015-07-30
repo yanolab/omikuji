@@ -4,7 +4,7 @@
 import random
 
 omikuji = [u'大吉', u'中吉', u'吉', u'凶']
-res = omikuji[random.randint(0, 3)]
+res = omikuji[random.randint(0, 3)].encode('utf-8')
 
 template = '''
 <!DOCTYPE html>
